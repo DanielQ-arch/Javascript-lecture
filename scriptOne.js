@@ -73,30 +73,37 @@ if (num > 0, num < 100){
 }
 
 var hasCar = true;
-
-if (hasCar = true){
-    console.log("You can drive legally.")
-}
-
-
 var hasLicense = true;
-
-
 var hasInsurance = true;
 
-let number = 85;
-
-if (number >= 90){
-    house = "Grade A";
-    console.log(house);
-}
-
-else if(80 <= number <= 90){
-    house = "Grade B";
-    console.log(house);
+if (hasCar, hasLicense, hasInsurance){
+    console.log("You can drive legally.");
 }
 
 else{
-    house = "Grade C";
-    console.log(house);
+    console.log("Check your driving eligibility.");
+}
+
+var num = 21;
+
+if (num % 2 === 0){
+    console.log("The number is even.");
+}
+
+else {
+    console.log("The number is odd.");
+}
+
+var score= 85;
+
+if (score >= 90){
+    console.log("Grade A");
+}
+
+else if(80 <= score <= 90){
+    console.log("Grade B");
+}
+
+else{
+    console.log("Grade C");
 }
