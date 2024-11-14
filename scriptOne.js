@@ -10,16 +10,16 @@ let LastName = "Quisbert";
 console.log(LastName);
 
 
-var string =
 
-let number = 86;
 
-if (number > 90){
+let number = 85;
+
+if (number >= 90){
     house = "Grade A";
     console.log(house);
 }
 
-else if(number > 80){
+else if(number > 90){
     house = "Grade B";
     console.log(house);
 }
