@@ -49,10 +49,40 @@ else{
 }
 
 
-var a = 5
+var a = 5;
 
-var b = 10
+var b = 10;
+console.log(a==b); false
+console.log(a==b); false
+console.log(a!=b); true
+console.log(a>b); false
+console.log(a<b); true
+console.log(a>=b); false
+console.log(a<=b); true
 
+var firstname = "Daniel";
+var lastname = "Quisbert";
+var age = 18
+
+console.log("Hello, " + firstname +" "+ lastname +", you are " + age +" years old");
+
+var num = 50;
+
+if (num > 0, num < 100){
+    console.log("The number is with range.");
+}
+
+var hasCar = true;
+
+if (hasCar = true){
+    console.log("You can drive legally.")
+}
+
+
+var hasLicense = true;
+
+
+var hasInsurance = true;
 
 let number = 85;
 
